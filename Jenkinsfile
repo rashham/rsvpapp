@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'python tests/__init__.py'
-                sh 'python tests/test_rsvpapp.py'
+                sh 'python3 tests/__init__.py'
+                sh 'python3 tests/test_rsvpapp.py'
             }
         }
     }
